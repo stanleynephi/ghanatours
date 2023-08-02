@@ -887,7 +887,7 @@ input:active{
 
 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
     body{
         position: relative;
     }
@@ -923,16 +923,18 @@ input:active{
         display: grid;
         background: none;
         grid-template-columns: repeat(4,1fr);
+        margin-bottom: 14%;
     }
 
     .independence{
         grid-row: 3/7;
         margin-top: 10%;
-        margin-left: 0%;
+        margin-left: -15%;
+        align-items: center;
     }
 
     .independence img{
-        width: 280px;
+        width: 350px;
         height: 200px;
         padding: 0px;
         border: 0;
@@ -951,7 +953,7 @@ input:active{
         display: inline-block;
         margin-top: 10%;
         width: 280px;
-        margin-left: -25%;
+        margin-left: 4%;
         background-color: aliceblue;
         margin-bottom: 10%;
         color: black;
@@ -983,6 +985,8 @@ input:active{
     .country{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: -74%;
     }
 
@@ -997,6 +1001,14 @@ input:active{
         height: auto;
         padding: 0px;
         border: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
     }
 
     
