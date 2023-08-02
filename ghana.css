@@ -920,21 +920,20 @@ input:active{
     }
 
     .namearch{
-        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
         background: none;
-        grid-template-columns: repeat(4,1fr);
-        margin-bottom: 14%;
+        margin: 15% 2% 1% 5%;
     }
 
     .independence{
-        grid-row: 3/7;
-        margin-top: 10%;
+        margin-top: 2%;
         margin-left: -15%;
         align-items: center;
     }
 
     .independence img{
-        width: 350px;
+        max-width:300px;
         height: 200px;
         padding: 0px;
         border: 0;
@@ -946,30 +945,30 @@ input:active{
 
     .indetext{
         transition: .5s ease;
-        width:280px ;
+        max-width: 300px;
     }
 
     .independence:hover .indetext{
         display: inline-block;
-        margin-top: 10%;
+        position: relative;
+        margin-top: -10%;
         width: 280px;
-        margin-left: 4%;
+        margin-left: -5%;
+        margin-bottom: -23%;
         background-color: aliceblue;
-        margin-bottom: 10%;
         color: black;
-        -webkit-transform: translate(5%,-95%);
+        -webkit-transform: translate(5%,-75%);
         -ms-transform: translate();
-        transform: translate(10%,-95%);
+        transform: translate(11%,-85%);
     }
 
     .text{
-        grid-row: 2/4;
-        font-size: 20px;
-        margin-left: 30%;
+        margin-top: 0%;
+        font-size: 15px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 10px;
+        justify-content: baseline;
+        align-items: baseline;
     }
 
     .text p{
@@ -987,7 +986,7 @@ input:active{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -74%;
+        margin-top: 4%;
     }
 
     .ghana{
