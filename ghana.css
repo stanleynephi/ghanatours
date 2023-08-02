@@ -885,3 +885,120 @@ input:active{
 
 
 
+
+
+@media screen and (max-width:767px) {
+    body{
+        position: relative;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    header :nth-child(1){
+        margin-right: 5%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a{
+        font-size: 18px;
+        margin-left: -3%;
+        margin-right: 9%;
+        margin-top: 5%;
+    }
+
+    nav :nth-child(1){
+        color: red;
+        margin-left: -9%;
+        margin-right: 9%;
+    }
+
+    .namearch{
+        display: grid;
+        background: none;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .independence{
+        grid-row: 3/7;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+
+    .independence img{
+        width: 280px;
+        height: 200px;
+        padding: 0px;
+        border: 0;
+    }
+
+    .independencetext{
+        display: block;
+    }
+
+    .indetext{
+        transition: .5s ease;
+        width:280px ;
+    }
+
+    .independence:hover .indetext{
+        display: inline-block;
+        margin-top: 10%;
+        width: 280px;
+        margin-left: -25%;
+        background-color: aliceblue;
+        margin-bottom: 10%;
+        color: black;
+        -webkit-transform: translate(5%,-95%);
+        -ms-transform: translate();
+        transform: translate(10%,-95%);
+    }
+
+    .text{
+        grid-row: 2/4;
+        font-size: 20px;
+        margin-left: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .text p{
+        padding-top: 0%;
+        border-top: 0;
+        margin-top: -10%;
+        font-size: 20px;
+        margin-left: 50px;
+        padding-left: 10px;
+        border-left: 3px solid black;
+    }
+
+    .country{
+        display: flex;
+        flex-direction: column;
+        margin-top: -74%;
+    }
+
+    .ghana{
+        margin: 10% auto;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .photo img{
+        width: 280px;
+        height: auto;
+        padding: 0px;
+        border: 0;
+    }
+
+    
+}
+
