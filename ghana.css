@@ -923,7 +923,7 @@ input:active{
         display: flex;
         flex-direction: column-reverse;
         background: none;
-        margin: 15% 2% 1% 5%;
+        margin: 18% 2% 1% 5%;
     }
 
     .independence{
@@ -936,7 +936,7 @@ input:active{
     }
 
     .independence img{
-        max-width:300px;
+        width:305px;
         height: 200px;
         padding: 0px;
         border: 0;
@@ -949,7 +949,6 @@ input:active{
         width: 104%;
         opacity: 0;
         transition: .5s ease;
-        background-color: red;
         color: black;
         text-align: center;
         padding: 0px;
