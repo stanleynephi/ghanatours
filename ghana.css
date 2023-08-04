@@ -1007,6 +1007,10 @@ input:active{
         height: auto;
     }
 
+    footer nav{
+        text-align: center;
+    }
+
     .goldcoast{
         background: none;
         padding: 0%;
@@ -1040,12 +1044,48 @@ input:active{
     #arts{
         display: flex;
         flex-direction: column;
-        height: fit-content;
+        height: 85%;
         padding: 20% auto;
     }
 
     .art1, .art2{
-        margin-bottom: -50%;
+        margin-bottom: -45%;
     }
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap: 30px;
     }
+
+    .gallery img{
+        width: 95%;
+    }
+
+    .viewghana1:hover{
+        transform: scale(1.1);
+    }
+
+    .viewghana2:hover{
+        transform: scale(1.1);
+    }
+
+    .viewghana3:hover{
+        transform: scale(1.1);
+    }
+
+    .viewghana4:hover{
+        transform: scale(1.1);
+    }
+
+    .viewghana5:hover{
+        transform: scale(1.1);
+    }
+
+    .viewghana6:hover{
+        transform: scale(1.1);
+    }
+}
 
