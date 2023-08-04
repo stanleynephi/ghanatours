@@ -40,7 +40,9 @@
                         <div class="sitetxt">
                             <div class="sitetxt2">
                                 <img src="images/nkrumahpark8.jpg" alt="Kwame NKurumah Museum">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium provident nobis iusto reiciendis aut expedita nam distinctio quidem id, quisquam temporibus labore sint qui totam voluptatem dolore aliquid? Dolorum, rem.</p>
+                                <p>The Kwame Nkurumah Museum is the grave yard for Ghana's first president Osagyefo DR. Kwame Nkurumah. At the Museumwe 
+                                    find some artifacts used by the former president
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -87,7 +89,7 @@
                            </div>
                         </div>
                         <div class="bookbutton">
-                            <button>BOOK NOW</button>
+                            <button><a href="#formspage">BOOK NOW</a></button>
                         </div>
                     </div>
 
@@ -109,7 +111,7 @@
                              </div>
                           </div>
                         <div class="bookbutton">
-                            <button>BOOK NOW</button>
+                            <button><a href="#formspage">BOOK NOW</a></button>
                         </div>
                     </div>
 
@@ -131,13 +133,13 @@
                            </div>
                         </div>
                         <div class="bookbutton">
-                            <button>BOOK NOW</button>
+                            <button><a href="#formspage">BOOK NOW</a></button>
                         </div>
                     </div>
                 </div>
 
                 
-                <div class="formspage">
+                <div id="formspage">
                     <div class="formimg">
                         <img src="images/rsz_rsz_1close-up-portrait-attractive-young-woman-isolated.jpg" alt="">
                     </div>
@@ -149,23 +151,23 @@
                             <h2>Book A Tour</h2>
                             <div class="namesmail">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" id="names">
+                                <input type="text" name="name" id="names"required>
                                 <label for="mail">E-mail</label>
-                                <input type="text" name="mail" id="mails">
+                                <input type="text" name="mail" id="mails"required>
                                 <label for="phone">Phone</label>
-                                <input type="tel" name="phone" id="phone">
+                                <input type="tel" name="phone" id="phone"required>
                             </div>
 
                             <div class="datespackages">
                                 <label for="dates">Date</label>
-                                <input type="text" name="dates" id="dates">
+                                <input type="date" name="dates" id="dates" value="dd/mm/yyy" required>
                                 <label for="people">No# People</label>
-                                <input type="number" min=0 max=50 step=1  name="people">
+                                <input type="number" min=0 max=50 step=1  name="people" style="text-align: center;" required>
                                 <label for="packages">Packages</label>
-                                <select name="packages" id="packages">
-                                    <option value="bronze">Bronze</option>
-                                    <option value="silver">Silver</option>
-                                    <option value="gold">Gold</option>
+                                <select name="packages" id="packages" style="text-align: center; background-color: inherit; font-weight: bold; color: aliceblue;">
+                                    <option value="bronze" style="background-color: #CD7F32; color: black;">Bronze</option>
+                                    <option value="silver" style="background-color: silver; color: black;">Silver</option>
+                                    <option value="gold" style="background-color: gold;color: black;">Gold</option>
                                 </select>
                             </div>
                             <div class="submit">
