@@ -893,33 +893,25 @@ input:active{
     }
 
     header{
+        position: relative;
         display: flex;
         flex-direction: row;
-        position: relative;
+        align-items: center;
+        gap: 4%;
         margin-top: -10%;
     }
 
-    header :nth-child(1){
-        margin-right: 5%;
-    }
 
     nav{
         display: flex;
-        flex-direction: row;
+        float: right;
     }
 
-    nav a{
-        font-size: 18px;
-        margin-left: -3%;
-        margin-right: 9%;
-        margin-top: 5%;
+    nav a:not(:last-child){
+        margin-right: 3%;
     }
 
-    nav :nth-child(1){
-        color: red;
-        margin-left: -9%;
-        margin-right: 9%;
-    }
+
 
     .namearch{
         display: flex;
