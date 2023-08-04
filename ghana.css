@@ -1007,6 +1007,45 @@ input:active{
         height: auto;
     }
 
-    
-}
+    .goldcoast{
+        background: none;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+        margin-bottom: -25%;
+        border: none;
+    }   
+
+    .goldcoasttext{
+        color: black;
+        font-size: 17px;
+    }
+
+    .free{
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .goldcoastimg img{
+        width: 100%;
+        margin-top: -29%;
+    }
+
+    #arts{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 20% auto;
+    }
+
+    .art1, .art2{
+        margin-bottom: -50%;
+    }
+    }
 
