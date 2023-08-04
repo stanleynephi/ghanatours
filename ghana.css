@@ -1087,5 +1087,111 @@ input:active{
     .viewghana6:hover{
         transform: scale(1.1);
     }
+
+    .motherland{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .motherland img{
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .festivals{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homowo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .homowo img{
+        padding: 1%;
+        width: 100%;
+    }
+
+    .hogbetsotso{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hogbetsotso img{
+        padding: 2%;
+        width: 100%;
+    }
+
+    .ghanatours{
+        margin-top: -9%;
+    }
+
+    .sites{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -1%;
+        margin-top: 10%;
+    }
+
+    .site1,.site2,.site3{
+        margin-bottom: 10%;
+    }
+
+    .sitetxt2 p{
+        font-size: 15px;
+    }
+
+    .sitetxt3 p{
+        font-size: 15px;
+    }
+
+    .sitetxt4 p{
+        font-size: 15px;
+    }
+
+    .tourpackages{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ghanatours{
+        margin-bottom: 10%;
+        height: fit-content;
+    }
+
+    .package1{
+        width: 100%;
+        height: 100%;
+        padding: 0% auto;
+        margin-bottom: 10%;
+    }
+
+    .formspage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formimg{
+        border-bottom: 3px solid black;
+        border-right: none;
+    }
+
+    .formspage img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    form{
+        width: 80%;
+    }
 }
 
