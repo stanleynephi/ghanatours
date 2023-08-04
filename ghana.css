@@ -922,13 +922,16 @@ input:active{
     .namearch{
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
         background: none;
-        margin: 18% 2% 1% 5%;
+        margin:15% 10%;
+        width: 100%;
     }
 
     .independence{
         margin-top: 2%;
-        margin-left: -15%;
+        margin-left: 3px;
         align-items: center;
         position: relative;
         width: 100%;
@@ -936,11 +939,10 @@ input:active{
     }
 
     .independence img{
-        width:85%;
+        width:315px;
         height: 200px;
         padding: 0px;
         border: 0;
-        margin-left: 16%;
     }
 
     .independencetext{
@@ -975,7 +977,7 @@ input:active{
         padding-top: 0%;
         border-top: 0;
         margin-top: -10%;
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 50px;
         padding-left: 10px;
         border-left: 3px solid black;
